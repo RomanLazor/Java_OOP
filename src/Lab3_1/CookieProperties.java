@@ -13,10 +13,10 @@ public class CookieProperties{
 
     @Override
     public String toString() {
-        return "CookieProperties{" +
-                "radius=" + radius +
+        return ":" +
+                " radius=" + radius +
                 ", baketime=" + baketime +
                 ", bakeheat=" + bakeheat +
-                '}';
+                '.';
     }
 }

@@ -13,10 +13,10 @@ public class MuffinProperties {
 
     @Override
     public String toString() {
-        return "MuffinProperties{" +
-                "radius=" + radius +
+        return ":" +
+                " radius=" + radius +
                 ", baketime=" + baketime +
                 ", bakeheat=" + bakeheat +
-                '}';
+                '.';
     }
 }

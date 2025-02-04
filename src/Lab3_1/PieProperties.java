@@ -5,13 +5,14 @@ public class PieProperties {
     int baketime;
     int bakeheat;
 
+
     @Override
     public String toString() {
-        return "PieProperties{" +
-                "radius=" + radius +
+        return ":" +
+                " radius=" + radius +
                 ", baketime=" + baketime +
                 ", bakeheat=" + bakeheat +
-                '}';
+                '.';
     }
 
     public PieProperties(double radius, int baketime, int bakeheat) {
@@ -20,4 +21,5 @@ public class PieProperties {
         this.bakeheat = bakeheat;
     }
 }
+
 

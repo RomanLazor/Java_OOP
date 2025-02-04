@@ -6,6 +6,7 @@ public class BakingSettings {
         MuffinProperties bake2 = new MuffinProperties(10.5, 45, 210);
         PieProperties bake3 = new PieProperties(30.6, 60, 240);
 
+        System.out.println("Your receipts for baking:");
         System.out.println("Cookie" + bake1);
         System.out.println("Muffin" + bake2);
         System.out.println("Pie" + bake3);
